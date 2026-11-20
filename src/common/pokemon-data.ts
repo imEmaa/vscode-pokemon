@@ -5165,6 +5165,13 @@ const POKEMON_DATA_RAW: Record<string, PokemonConfig> = {
     cry: 'Genesect!',
     possibleColors: [],
   },
+  decidueye: {
+    id: 724,
+    name: 'Decidueye',
+    generation: PokemonGeneration.Gen7,
+    cry: 'Decidueye!,
+    possibleColors: [PokemonColor.default],
+  }
 };
 
 export const POKEMON_DATA: Record<PokemonType, PokemonConfig> =
